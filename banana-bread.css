@@ -1,5 +1,8 @@
+
 body{
-   background-color: #eee;
+   background-color: white;
+   width:960px;
+   margin: 2px auto;
 }
 
 #page{
@@ -8,15 +11,21 @@ body{
 }
 
 header{
-  height: 60px;
-  border: 2px solid black;
-  padding-bottom: 7px;
-  background-color: #ccc;
-  width: 100%;
+padding: 3px;
+text-align: center;
+background-color: white;
 }
 
-nav h1{
-  display: inline;
+h1{
+  text-transform: uppercase;
+}
+
+nav {
+  border: 2px solid black;
+  height: 30px;
+  padding-bottom: 6px;
+  padding-top:.03px;
+  width: 100%;
   text-align: center;
 }
 
@@ -26,7 +35,6 @@ nav li{
   margin-right: 60px;
   font-size: 1rem;
   font-family: sans-serif;
-  text-align: left;
 }
 
 nav li:hover{
@@ -35,19 +43,17 @@ nav li:hover{
 
 #content{
   float:left;
-  width: 900px;
-  padding-left: 15px;
+  width: 700px;
 
 }
 
 article{
   background-color: white;
-  margin-right:15px;
-
+  margin-left: 30px;
 }
 
 .recipe {
-  padding: 30px;
+  padding: 15px;
   margin:30px;
 }
 
@@ -65,23 +71,27 @@ article{
 }
 
 #wet {
-
+  float:left;
+  width: 250px;
 }
 
 #dry{
-
+  float:left;
+  width: 250px;
 }
 
 .recipe-directions {
-
+  margin-top: 7px;
 }
 
 .recipe-nutrition-table{
 
 }
+
 aside{
-  width: 250px;
+  width: 200px;
   margin-top: 30px;
+  box-shadow:
 }
 
 #shopping-list{
@@ -91,11 +101,21 @@ aside{
   margin-left:15px;
 }
 
+#shopping-list li{
+  margin-bottom: 3px;
+  text-align: left;
+  margin-right: 10px;
+}
+
 h2{
   background-color: pink;
   margin-right: 25px;
 }
 
-footer{
-
+#footer {
+   position: absolute;
+   bottom:0;
+   width:100%;
+   height:50px;
+   margin:15px;
 }
