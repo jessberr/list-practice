@@ -1,3 +1,51 @@
+body{
+   background-color: #eee;
+}
+
+#page{
+
+  margin: 10px auto;
+}
+
+header{
+  height: 60px;
+  border: 2px solid black;
+  padding-bottom: 7px;
+  background-color: #ccc;
+  width: 100%;
+}
+
+nav h1{
+  display: inline;
+  text-align: center;
+}
+
+nav li{
+  display: inline;
+  cursor: pointer;
+  margin-right: 60px;
+  font-size: 1rem;
+  font-family: sans-serif;
+  text-align: left;
+}
+
+nav li:hover{
+  color:white;
+}
+
+#content{
+  float:left;
+  width: 900px;
+  padding-left: 15px;
+
+}
+
+article{
+  background-color: white;
+  margin-right:15px;
+
+}
+
 .recipe {
   padding: 30px;
   margin:30px;
@@ -19,11 +67,35 @@
 #wet {
 
 }
-#dry{
 
+#dry{
 
 }
 
 .recipe-directions {
+
+}
+
+.recipe-nutrition-table{
+
+}
+aside{
+  width: 250px;
+  margin-top: 30px;
+}
+
+#shopping-list{
+  float: left;
+  border: 1px dotted gray;
+  text-align: center;
+  margin-left:15px;
+}
+
+h2{
+  background-color: pink;
+  margin-right: 25px;
+}
+
+footer{
 
 }
